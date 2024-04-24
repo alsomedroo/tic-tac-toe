@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #5e1f6d;
+}
+.board{
+    background-color: #ae9da9;
+    height: 456px;
+    width: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.board{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.baby{
+    width: 150px;
+    height: 150px;
+    background-color: #ae9da9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.baby5{
+    border: 3px solid black;
+}
+.baby1{
+    border-radius: 15px 0px 0px 0px;
+}
+.baby3{
+    border-radius: 0px 15px 0px 0px;
+}
+.baby7{
+    border-radius: 0px 0px 0px 15px;
+}
+.baby9{
+    border-radius: 0px 0px 15px 0px;
+}
+.baby2{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.baby4{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.baby6{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+.baby8{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+
+}
+button{
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #7e4b8b;
+    font-size: larger;
+}
